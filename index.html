@@ -3,7 +3,155 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sample Website in HTML and CSS</title>
+    <meta
+      name="description"
+      content="Portfolio showcase - Modern web development solutions with custom design and responsive layouts"
+    />
+    <meta
+      name="keywords"
+      content="web development, portfolio, responsive design, HTML, CSS"
+    />
+    <meta name="author" content="Bartosz Sergot - mrKevler" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Portfolio - Web Development Solutions" />
+    <meta
+      property="og:description"
+      content="Professional web development portfolio showcasing modern design and responsive solutions"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bartoszsergot.com" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Title  -->
+    <title>HTML-CSS Sample Site by KEVLER - Modern Web Development</title>
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/image/favicon_bartosz_sergot_mrkevler.png"
+    />
   </head>
-  <body></body>
+
+  <body>
+    <div class="container" id="home">
+      <header>
+        <nav>
+          <div class="logo">
+            <img
+              src="./assets/image/bartosz_sergot_mrkevler_logo.webp"
+              alt="KEVLER - Bartosz Sergot Logo"
+            />
+          </div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="up">
+          <div class="left_up">
+            <div class="hero-content">
+              <h2>Modern Web Development</h2>
+              <p>
+                Creating beautiful and functional websites with semantic HTML
+                and modern CSS
+              </p>
+            </div>
+          </div>
+          <div class="right_up">
+            <div class="child1 blue">
+              <span class="feature-text">Responsive Design</span>
+            </div>
+            <div class="child2">
+              <span class="feature-text">Clean Code</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="down">
+          <div class="child3">
+            <span class="feature-text">Fast Performance</span>
+          </div>
+          <div class="child4">
+            <span class="feature-text">SEO Optimized</span>
+          </div>
+        </section>
+
+        <section class="features">
+          <div class="column1">
+            <span class="feature-text">Mobile First</span>
+          </div>
+          <div class="column2">
+            <div class="blue">
+              <span class="feature-text">Modern Standards</span>
+            </div>
+            <div class="green">
+              <span class="feature-text">Cross Browser</span>
+            </div>
+          </div>
+          <div class="column3">
+            <div class="author-info">
+              <span class="feature-text">Author Website</span>
+              <small
+                >Explore more at
+                <a
+                  href="https://bartoszsergot.com"
+                  target="_blank"
+                  rel="noopener"
+                  >bartoszsergot.com</a
+                ></small
+              >
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer-content" id="contact">
+          <div>
+            <h3>Quick Links</h3>
+            <ul class="footer-list">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>About</h3>
+            <p>Sample site showcasing modern web development techniques.</p>
+            <p style="margin-top: 10px">
+              <strong>Author:</strong>
+              <a
+                href="https://bartoszsergot.com"
+                target="_blank"
+                rel="noopener"
+                style="color: #1e88e5; text-decoration: none"
+                >mrKevler</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 HTML-CSS Sample Site by
+            <strong><a href="https:bartoszsergot.com">mrKevler</a></strong
+            >. Demo project for GitHub.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
